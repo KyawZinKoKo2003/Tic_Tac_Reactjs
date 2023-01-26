@@ -3,7 +3,9 @@ import { useState } from "react";
 import Board from "./components/Board";
 import Scoreboard from "./components/Scoreboard";
 import ResectBtn from "./components/ResectBtn";
+import './App.css';
 export default function App() {
+
   const Winning_State = [
     [0, 1, 2],
     [3, 4, 5],
@@ -59,6 +61,8 @@ export default function App() {
 
   return (
     <div>
+      <div className="header">Mini Tic-Tac-Toe Game with Reactjs</div>
+      <div className="icon"><a href="https://github.com/jackson457"><span className="fa-brands fa-github"></span>View My github</a></div>
       <Scoreboard scores={scores} xPlaying={xPlaying}/>
       <Board board={board} onClick={gameover ? Reset : handleClick} />
       <ResectBtn reset={Reset} />
