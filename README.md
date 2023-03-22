@@ -3,4 +3,5 @@
 -Play Game and check the winner.<br>
 -Store the score.<br>
 -Reset play Dashboard <br>
-Live demo (https://tic-tac-reactjs.vercel.app/)
+<hr>
+Live demo <h3><b>https://tic-tac-reactjs.vercel.app/ </b></h3>
